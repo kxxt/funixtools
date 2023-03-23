@@ -1,0 +1,7 @@
+[spectre.mappings]
+a = "c"
+e = [1,2,3]
+
+[localhost.mappings]
+a = "b"
+c = "d"
