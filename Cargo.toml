@@ -2,6 +2,9 @@
 name = "funixtools"
 version = "0.1.0"
 edition = "2021"
+description = "Some fun unix tools for my own use"
+authors = ["kxxt"]
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
