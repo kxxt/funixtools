@@ -107,7 +107,7 @@ fn main() -> Result<()> {
         bail!("Error: no arguments provided!");
     }
     for arg in cli.args {
-        let Some(v) = profile.get(&arg) else { bail!("Error: key \"{:?}\" not found!", arg)};
+        let Some(v) = profile.get(&arg) else { bail!("Error: key {:?} not found!", arg)};
         match v {
             toml::Value::String(s) => print!("{}{}", s, &cli.separator),
             _ => bail!("Error: value {:?} for key \"{}\" is not a string!", v, arg),
