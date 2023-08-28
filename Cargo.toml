@@ -1,6 +1,6 @@
 [package]
 name = "funixtools"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 description = "Some fun unix tools for my own use"
 authors = ["kxxt"]
@@ -17,5 +17,5 @@ dirs = "5.0.0"
 env_logger = "0.10.0"
 itertools = "0.11.0"
 log = "0.4.17"
-nix = "0.27"
+nix = { version = "0.27", features = ["hostname"] }
 toml = "0.7.3"
