@@ -1,9 +1,11 @@
 [package]
 name = "funixtools"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 description = "Some fun unix tools for my own use"
 authors = ["kxxt"]
+homepage = "https://github.com/kxxt/funixtools"
+repository = "https://github.com/kxxt/funixtools"
 license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -15,5 +17,5 @@ dirs = "5.0.0"
 env_logger = "0.10.0"
 itertools = "0.11.0"
 log = "0.4.17"
-nix = "0.26.2"
+nix = "0.27"
 toml = "0.7.3"
