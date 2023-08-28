@@ -1,6 +1,6 @@
 [package]
 name = "funixtools"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Some fun unix tools for my own use"
 authors = ["kxxt"]
@@ -13,6 +13,7 @@ clap = { version = "4.1.11", features = ["derive"] }
 color-eyre = "0.6.2"
 dirs = "5.0.0"
 env_logger = "0.10.0"
+itertools = "0.11.0"
 log = "0.4.17"
 nix = "0.26.2"
 toml = "0.7.3"
